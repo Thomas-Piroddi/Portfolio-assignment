@@ -105,19 +105,29 @@ input[type=text], select, textarea{
   background: #cb2027;
   color: white;
 }
-.email_me{
-    color: white;
-}
-@media screen and (min-width: 700px){
-    .email_me{
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 .title{
     color: rgb(254, 196, 5);
     font: 1.2em "Fira Sans", sans-serif;
     text-align: center;
     font-size: 400%
+}
+
+.email_me{
+    color: white;
+}
+@media screen and (min-width: 600px){
+    .email_me{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .body_text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .personal_details_titles
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
