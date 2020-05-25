@@ -1,5 +1,8 @@
 # Portfolio Website: T1A3
 
+My netlify deployed site: https://chicky-portfolio-site.netlify.app/
+My github link: https://github.com/Thomas-Piroddi/Portfolio-assignment
+
 ## 1) Purpose
 
 The purpose of my portfolio site is to create a digital diary of myself. I made this portfolio with the intention of letting the reader get to know a little about me with a few simple clicks. The page shows my applied knowledge of both HTML and CSS that we have covered in class so far.
