@@ -1,0 +1,123 @@
+#ABC{
+    background-color: white;
+    height: 100%;
+    position: default;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+body{
+    background: rgb(67, 12, 155);
+    height: 100%;
+}
+.body-text{
+    color: white
+}
+.titles{
+    color: white;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+.personal_details_titles{
+    color: orange;
+    font-family: Tahoma, sans-serif;
+    text-align: left;
+    margin: 25px;
+    font-size: xx-large;
+}
+.menu_links{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Tahoma;
+    font-size: xx-large;
+}
+.social_media{
+    color: white;
+    font: 1.2em "Fira Sans", sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+img{
+    border-radius: 20%;
+    text-align: center;
+}
+.grow:hover{ 
+    transform: scale(1.2);
+}
+.grow{ 
+    transition: all .2s ease-in-out; 
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(47, 209, 245);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    resize: vertical;
+    color: white;
+}
+.shrink{
+    transition: all .2s ease-in-out;
+    color: white;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-align: center;
+    font-size: xx-large; 
+}
+.shrink:hover{ 
+    transform: scale(0.9); 
+}
+.body_text{
+    color: white;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-align: left;
+    font-size: small;
+    margin: 20px;
+}
+.fa{
+    padding: 40px;
+    font-size: 60px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest{
+  background: #cb2027;
+  color: white;
+}
+.email_me{
+    color: white;
+}
+@media screen and (min-width: 700px){
+    .email_me{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.title{
+    color: rgb(254, 196, 5);
+    font: 1.2em "Fira Sans", sans-serif;
+    text-align: center;
+    font-size: 400%
+}
