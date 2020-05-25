@@ -59,7 +59,7 @@ input[type=text], select, textarea{
     margin-top: 5px;
     margin-bottom: 18px;
     resize: vertical;
-    color: white;
+    color: black;
 }
 .shrink{
     transition: all .2s ease-in-out;
