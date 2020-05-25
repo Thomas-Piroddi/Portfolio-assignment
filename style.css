@@ -7,11 +7,11 @@
     width: 100%;
 }
 body{
-    background: rgb(67, 12, 155);
+    background: rgb(46, 2, 116);
     height: 100%;
 }
 .body-text{
-    color: white
+    color: rgb(171, 166, 166)
 }
 .titles{
     color: white;
@@ -20,14 +20,14 @@ body{
     font-size: xx-large;
 }
 .personal_details_titles{
-    color: orange;
+    color: rgb(152, 101, 6);
     font-family: Tahoma, sans-serif;
     text-align: left;
     margin: 25px;
     font-size: xx-large;
 }
 .menu_links{
-    color: rgb(255, 255, 255);
+    color: rgb(221, 215, 215);
     display: flex;
     justify-content: space-evenly;
     font-family: Tahoma;
@@ -35,7 +35,7 @@ body{
     margin-bottom: 10px;
 }
 .social_media{
-    color: white;
+    color: rgb(190, 184, 184);
     font: 1.2em "Fira Sans", sans-serif;
     font-size: x-large;
     text-align: center;
@@ -63,7 +63,7 @@ input[type=text], select, textarea{
 }
 .shrink{
     transition: all .2s ease-in-out;
-    color: white;
+    color: rgb(167, 162, 162);
     font: 1.2em "Fira Sans", sans-serif;
     text-align: center;
     font-size: xx-large; 
@@ -72,7 +72,7 @@ input[type=text], select, textarea{
     transform: scale(0.9); 
 }
 .body_text{
-    color: white;
+    color: rgb(171, 165, 165);
     font: 1.2em "Fira Sans", sans-serif;
     text-align: left;
     font-size: small;
@@ -117,7 +117,7 @@ input[type=text], select, textarea{
   text-align: center;
 }
 .title{
-    color: rgb(254, 196, 5);
+    color: rgb(160, 124, 3);
     font: 1.2em "Fira Sans", sans-serif;
     text-align: center;
     font-size: 400%
